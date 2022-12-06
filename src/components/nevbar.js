@@ -5,6 +5,7 @@ import {
 import Rockets from './rockets';
 import Missions from './missions';
 import Myprofile from './myprofile';
+import Dragons from './dragons';
 import Logo from '../images/planet.png';
 import './navbar.css';
 
@@ -36,6 +37,15 @@ const Navbar = () => (
                 Missions
               </Link>
             </li>
+            <li>
+              <Link
+                style={{ textDecoration: 'none' }}
+                className="dragons"
+                to="dragons"
+              >
+                Dragons
+              </Link>
+            </li>
             <div className="vertical-line" />
             <li>
               <Link
@@ -52,6 +62,7 @@ const Navbar = () => (
       <Routes>
         <Route path="/" element={<Rockets />} />
         <Route path="missions" element={<Missions />} />
+        <Route path="dragons" element={<Dragons />} />
         <Route path="profile" element={<Myprofile />} />
       </Routes>
     </div>
