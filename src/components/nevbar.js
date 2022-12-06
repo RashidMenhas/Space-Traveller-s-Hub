@@ -1,0 +1,61 @@
+import React from 'react';
+import {
+  BrowserRouter as Router, Routes, Route, Link,
+} from 'react-router-dom';
+import Rockets from './rockets';
+import Missions from './missions';
+import Myprofile from './myprofile';
+import Logo from '../images/planet.png';
+import './navbar.css';
+
+const Navbar = () => (
+  <Router>
+    <div>
+      <nav className="navbar">
+        <div className="logo">
+          <img className="logoImg" src={Logo} alt="logo" />
+          <h1 className="logo-text">Space Travelers&apos; Hub</h1>
+        </div>
+        <div className="ul-list">
+          <ul className="ul">
+            <li>
+              <Link
+                style={{ textDecoration: 'none' }}
+                className="rockets"
+                to="/"
+              >
+                Rockets
+              </Link>
+            </li>
+            <li>
+              <Link
+                style={{ textDecoration: 'none' }}
+                className="missions"
+                to="missions"
+              >
+                Missions
+              </Link>
+            </li>
+            <div className="vertical-line" />
+            <li>
+              <Link
+                style={{ textDecoration: 'none' }}
+                className="dragons"
+                to="profile"
+              >
+                My Profile
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Rockets />} />
+        <Route path="missions" element={<Missions />} />
+        <Route path="profile" element={<Myprofile />} />
+      </Routes>
+    </div>
+  </Router>
+);
+
+export default Navbar;
