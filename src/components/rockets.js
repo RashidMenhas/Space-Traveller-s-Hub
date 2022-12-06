@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Rockets = () => (
-  <div>
-    <h1>Rockets Categorie</h1>
-  </div>
-);
+const Rockets = () => {
+    return(
+        <div className='container'>
+
+        </div>
+    )
+};
 export default Rockets;

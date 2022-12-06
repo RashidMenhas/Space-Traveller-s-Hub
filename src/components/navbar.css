@@ -68,3 +68,13 @@ ul {
   height: 20px;
   background-color: rgb(156, 156, 156);
 }
+
+.horizental-line {
+    display: flex;
+    width: 80%;
+    height: 2px;
+    background-color: rgb(156, 156, 156);
+    text-align: center;
+    margin: auto;
+
+}
