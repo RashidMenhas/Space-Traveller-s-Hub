@@ -59,6 +59,7 @@ const Navbar = () => (
           </ul>
         </div>
       </nav>
+      <div className="horizental-line" />
       <Routes>
         <Route path="/" element={<Rockets />} />
         <Route path="missions" element={<Missions />} />
