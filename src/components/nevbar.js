@@ -6,6 +6,7 @@ import Rockets from './rockets';
 import Missions from './missions';
 import Dragons from './Dragons';
 import Myprofile from './myprofile';
+import Dragons from './dragons';
 import Logo from '../images/planet.png';
 import './navbar.css';
 
@@ -41,8 +42,10 @@ const Navbar = () => (
             <li>
               <Link
                 style={{ textDecoration: 'none' }}
+
                 className="Dragonss"
                 to="Dragons"
+
               >
                 Dragons
               </Link>
@@ -60,10 +63,12 @@ const Navbar = () => (
           </ul>
         </div>
       </nav>
+      <div className="horizental-line" />
       <Routes>
         <Route path="/" element={<Rockets />} />
         <Route path="missions" element={<Missions />} />
         <Route path="Dragons" element={<Dragons />} />
+
         <Route path="profile" element={<Myprofile />} />
       </Routes>
     </div>
