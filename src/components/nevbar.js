@@ -5,7 +5,7 @@ import {
 import Rockets from './rockets';
 import Missions from './missions';
 import Myprofile from './myprofile';
-import Dragons from './Dragons';
+import Dragons from './dragons';
 import Logo from '../images/planet.png';
 import './navbar.css';
 
