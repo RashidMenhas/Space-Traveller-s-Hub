@@ -2,7 +2,7 @@ import React from 'react';
 
 const Rockets = () => (
   <div>
-    <h1>Rockets Categorie</h1>
+    <h1>Rockets Categories</h1>
   </div>
 );
 export default Rockets;
