@@ -70,11 +70,11 @@ ul {
 }
 
 .horizental-line {
-    display: flex;
-    width: 80%;
-    height: 2px;
-    background-color: rgb(156, 156, 156);
-    text-align: center;
-    margin: auto;
-
+  display: flex;
+  width: 90%;
+  height: 2px;
+  background-color: rgb(156, 156, 156);
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
 }
