@@ -1,7 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
-  width: 99%;
   height: 80px;
   display: flex;
+  justify-content: space-between;
+  padding: 2%;
 }
 
 .logo {
@@ -26,17 +33,13 @@
 
 .ul-list {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  width: 950px;
+
 }
 
 .ul {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
   align-items: center;
-  margin-left: 550px;
   gap: 2rem;
 }
 

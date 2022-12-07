@@ -13,6 +13,7 @@ const Navbar = () => (
   <Router>
     <div>
       <nav className="navbar">
+
         <div className="logo">
           <img className="logoImg" src={Logo} alt="logo" />
           <h1 className="logo-text">Space Travelers&apos; Hub</h1>
