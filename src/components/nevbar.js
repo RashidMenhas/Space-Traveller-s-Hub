@@ -4,7 +4,6 @@ import {
 } from 'react-router-dom';
 import Rockets from './rockets';
 import Missions from './missions';
-import Dragons from './Dragons';
 import Myprofile from './myprofile';
 import Dragons from './dragons';
 import Logo from '../images/planet.png';
@@ -42,7 +41,6 @@ const Navbar = () => (
             <li>
               <Link
                 style={{ textDecoration: 'none' }}
-
                 className="Dragonss"
                 to="Dragons"
 
