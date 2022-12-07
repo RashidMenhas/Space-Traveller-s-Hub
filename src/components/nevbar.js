@@ -4,6 +4,7 @@ import {
 } from 'react-router-dom';
 import Rockets from './rockets';
 import Missions from './missions';
+import Dragons from './Dragons';
 import Myprofile from './myprofile';
 import Dragons from './dragons';
 import Logo from '../images/planet.png';
@@ -13,6 +14,7 @@ const Navbar = () => (
   <Router>
     <div>
       <nav className="navbar">
+
         <div className="logo">
           <img className="logoImg" src={Logo} alt="logo" />
           <h1 className="logo-text">Space Travelers&apos; Hub</h1>
@@ -40,8 +42,10 @@ const Navbar = () => (
             <li>
               <Link
                 style={{ textDecoration: 'none' }}
-                className="dragons"
-                to="dragons"
+
+                className="Dragonss"
+                to="Dragons"
+
               >
                 Dragons
               </Link>
@@ -63,7 +67,8 @@ const Navbar = () => (
       <Routes>
         <Route path="/" element={<Rockets />} />
         <Route path="missions" element={<Missions />} />
-        <Route path="dragons" element={<Dragons />} />
+        <Route path="Dragons" element={<Dragons />} />
+
         <Route path="profile" element={<Myprofile />} />
       </Routes>
     </div>

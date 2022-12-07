@@ -3,6 +3,10 @@ import Logo from '../images/planet.png';
 import './rockets.css';
 
 const Rockets = () => (
+
+  <div>
+    <h1>Rockets Categories</h1>
+
   <div className="parent-container">
     <div className="container">
       <div className="image-container">
