@@ -20,8 +20,8 @@
 }
 
 .card-image {
-  width: 240px;
-  height: 240px;
+  width: 299px;
+  height: 180px;
   margin: 5px;
 }
 
@@ -29,6 +29,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 p {
