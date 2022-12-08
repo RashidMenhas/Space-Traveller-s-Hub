@@ -50,7 +50,7 @@ const Navbar = () => (
               <Link
                 style={{ textDecoration: 'none' }}
                 className={styles.dragons}
-                to="/profile"
+                to="/Profile"
               >
                 My Profile
               </Link>
@@ -62,7 +62,7 @@ const Navbar = () => (
         <Route path="/" element={<Rockets />} />
         <Route path="/Missions" element={<Missions />} />
         <Route path="/Dragons" element={<Dragons />} />
-        <Route path="/profile" element={<Myprofile />} />
+        <Route path="/Profile" element={<Myprofile />} />
       </Routes>
     </div>
   </Router>
