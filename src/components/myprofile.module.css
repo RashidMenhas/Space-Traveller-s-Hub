@@ -17,7 +17,7 @@
 .dragons_list {
   display: flex;
   flex-direction: column;
-  border: 1px solid #eeececd3;
+  border: 1px solid #bdbcbc;
   box-shadow:
     6px 6px 5px -1px #f3f0f0f1,
     -6px -6px 5px -1px #ffffffea;
@@ -32,5 +32,5 @@
 }
 
 .dragons_list li:first-child {
-  border-bottom: 1px solid #eeececd3;
+  border-bottom: 1px solid #bdbcbc;
 }
