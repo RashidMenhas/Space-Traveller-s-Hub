@@ -51,7 +51,7 @@ ul {
 }
 
 .rockets:focus {
- color: #1111e4;
+  color: #1111e4;
 }
 
 .missions {
@@ -63,7 +63,8 @@ ul {
 }
 
 .dragons_cont {
-  flex-direction: 2;
+  display: flex;
+  flex-direction: column;
   width: 7rem;
   border-left: 3px solid #979696;
   padding-left: 2rem;
