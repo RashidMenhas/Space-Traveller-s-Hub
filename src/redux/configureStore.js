@@ -1,11 +1,11 @@
-import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import { rocketReducer } from './rockets/rockets';
+import { configureStore } from '@reduxjs/toolkit';
+import rocketSlice from './rockets/rocketSlice';
 
-const rootReducer = combineReducers({
-  rocketReducer,
+const store = configureStore({
+  reducer: {
+    rockets: rocketSlice,
+  },
 
 });
-
-const store = configureStore({ reducer: rootReducer });
 
 export default store;
