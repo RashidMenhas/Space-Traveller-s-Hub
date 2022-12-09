@@ -48,40 +48,40 @@ ul {
 }
 
 .rockets:active {
-  color: #4e4eff;
+  color: #4141ff;
   font-size: 20px;
   text-decoration: underline;
 }
 
 .missions:active {
-  color: #4e4eff;
+  color: #4141ff;
   font-size: 20px;
   text-decoration: underline;
 }
 
 .dragonss:active {
-  color: #4e4eff;
+  color: #4141ff;
   font-size: 20px;
   text-decoration: underline;
 }
 
 .dragons:active {
-  color: #4e4eff;
+  color: #4141ff;
   font-size: 20px;
   text-decoration: underline;
 }
 
 .vertical-line {
   width: 2px;
-  height: 20px;
-  background-color: rgb(156, 156, 156);
+  height: 2rem;
+  background-color: rgb(145, 145, 145);
 }
 
 .horizental-line {
   display: flex;
   width: 90%;
   height: 2px;
-  background-color: rgb(156, 156, 156);
+  background-color: rgb(145, 145, 145);
   text-align: center;
   margin: auto;
   margin-top: 10px;
