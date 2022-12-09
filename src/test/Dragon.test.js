@@ -1,26 +1,13 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import { Provider } from 'react-redux';
-import store from '../redux/configureStore';
-import DragonssData from '../components/DragonssData';
-import Dragons from '../pages/Dragon';
+import Dragon from './__mock__/dragonSlice';
 
-describe('DragonssData', () => {
-  it('DragonssData component is rendered correctly', () => {
-    const dragon = render(
-      <Provider store={store}>
-        <DragonssData />
-      </Provider>
-    );
-    expect(dragon).toMatchSnapshot();
+describe('Dragon must pass test', () => {
+  test('Fetch Dragon must return data', () => {
+    expect(Dragon.fetchDragon()).toBeDefined();
   });
-
-  it('Dragons component rendered correctly', () => {
-    const dragons = render(
-      <Provider store={store}>
-        <Dragons />
-      </Provider>
-    );
-    expect(dragons).toMatchSnapshot();
+  test('Fetch dragon return value length must be', () => {
+    expect(Dragon.fetchDragon()).toHaveLength(2);
+  });
+  test('Fetch dragon return name to be', () => {
+    expect(Dragon.fetchDragon()[0].name).toBe('Dragon 1');
   });
 });
