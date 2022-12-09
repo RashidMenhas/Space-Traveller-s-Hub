@@ -1,0 +1,21 @@
+.profile-container {
+    width: 30%;
+    margin: 2rem;
+    
+}
+
+.table1 {
+    width: 100%;
+    border: 1px solid  rgb(145, 145, 145);
+    border-radius: 5px;
+    margin-top: .2rem;
+
+}
+
+.data {
+  border: 1px solid rgb(145, 145, 145);;
+  padding: .8rem;
+  
+}
+
+
