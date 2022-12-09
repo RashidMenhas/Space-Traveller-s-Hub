@@ -30,7 +30,6 @@ const rocketSlice = createSlice({
         if (rocket.id !== action.payload) {
           return { ...rocket };
         }
-        console.log(rocket);
         return { ...rocket, reserved: false };
       });
     },

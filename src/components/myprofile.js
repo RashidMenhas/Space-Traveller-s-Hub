@@ -10,7 +10,6 @@ const Myprofile = () => {
         <h2>My Rockets</h2>
         <ul className="table1">
           {rocketsData.map((rocket) => {
-            console.log(rocketsData);
             if (rocket.reserved) {
               return <li className="data" key={rocket.id}>{rocket.name}</li>;
             }
