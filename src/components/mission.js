@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { bookMission, unbookMission } from '../redux/missions/mission';
+import { joinMission, leaveMission } from '../redux/missions/mission';
+import './missions.css';
 
 const Mission = (props) => {
   const {
@@ -10,11 +11,11 @@ const Mission = (props) => {
 
   const dispatch = useDispatch();
   const reserve = () => {
-    dispatch(bookMission(id));
+    dispatch(joinMission(id));
   };
 
   const unsubscribe = () => {
-    dispatch(unbookMission(id));
+    dispatch(leaveMission(id));
   };
 
   return (

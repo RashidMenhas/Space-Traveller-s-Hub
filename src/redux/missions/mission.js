@@ -32,12 +32,12 @@ export const fetchMission = (mission) => ({
   mission,
 });
 
-export const bookMission = (id) => ({
+export const joinMission = (id) => ({
   type: BOOK_MISSION,
   payload: id,
 });
 
-export const unbookMission = (id) => ({
+export const leaveMission = (id) => ({
   type: UNBOOK_MISSION,
   payload: id,
 });
