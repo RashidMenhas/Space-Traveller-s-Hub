@@ -13,6 +13,7 @@ const Navbar = () => (
   <Router>
     <div>
       <nav className="navbar">
+
         <div className="logo">
           <img className="logoImg" src={Logo} alt="logo" />
           <h1 className="logo-text">Space Travelers&apos; Hub</h1>
@@ -32,7 +33,7 @@ const Navbar = () => (
               <Link
                 style={{ textDecoration: 'none' }}
                 className="missions"
-                to="/missions"
+                to="missions"
               >
                 Missions
               </Link>
@@ -42,6 +43,7 @@ const Navbar = () => (
                 style={{ textDecoration: 'none' }}
                 className="Dragonss"
                 to="Dragons"
+
               >
                 Dragons
               </Link>
@@ -62,7 +64,7 @@ const Navbar = () => (
       <div className="horizental-line" />
       <Routes>
         <Route path="/" element={<Rockets />} />
-        <Route path="/missions" element={<Missions />} />
+        <Route path="missions" element={<Missions />} />
         <Route path="Dragons" element={<Dragons />} />
         <Route path="profile" element={<Myprofile />} />
       </Routes>
