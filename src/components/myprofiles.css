@@ -11,7 +11,10 @@
 }
 
 .containers {
-  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.3%;
+  margin-top: 1rem;
 }
 
 .missionList {
