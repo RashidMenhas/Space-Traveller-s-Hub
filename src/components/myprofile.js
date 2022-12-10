@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './myprofile.css';
+import './myprofiles.css';
 
 const Myprofile = () => {
   const missionsData = useSelector((state) => state.missions);
